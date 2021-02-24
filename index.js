@@ -57,7 +57,7 @@ const instagram = 'https://instagram.com/marquinwzz?igshid=1mwbb7azx1l1l';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:wzz\n' // Nama kamu
+            + 'FN:marquin7\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=5511977782073:+55 119777-82073\n' //Nomor whatsapp kamu
             + 'END:VCARD'
