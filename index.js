@@ -455,7 +455,7 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundos, flw mn✋")
+			reply("5 segundos, adeus 👋🏻")
 		}, 0)
 	}
 	
@@ -466,7 +466,7 @@ if (text.includes("placa"))
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`tchau racista ${sender.split("@")[0]} você será expulso deste grupo em 5 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -521,7 +521,7 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
+			reply("5 segundo KKKKKKKK tchau cria 👋🏻")
 		}, 0)
 	}
 	
@@ -554,7 +554,7 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
+			reply("5 segundo KKKKKKKK tchau cria 👋🏻")
 		}, 0)
 	}
 	
@@ -587,14 +587,14 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
+			reply("5 segundo KKKKKKKK tchau cria 👋🏻")
 		}, 0)
 	}
 	
 	        if (messagesC.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx 🙂')
+		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx')
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -620,18 +620,18 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
+			reply("5 segundo KKKKKKKK tchau cria 👋🏻")
 		}, 0)
 	}
 	
 		        if (messagesC.includes("https://")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx 🙂')
+		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx')
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`link detectado ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`link detectado ${sender.split("@")[0]} voce será expulso deste grupo em 5 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -653,13 +653,13 @@ if (text.includes("placa"))
 		}, 1000)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
+			reply("5 segundo KKKKKKKK tchau cria 👋🏻")
 		}, 0)
 	}
 	
 	if (messagesC.includes("fdp")){
 			client.updatePresence(from, Presence.composing)
-			reply("teu pai")
+			reply("tua tia tetuda")
 				}
 	
 	if (messagesC.includes("bosta")){
@@ -669,27 +669,27 @@ if (text.includes("placa"))
 	
 		if (messagesC.includes("corno")){
 			client.updatePresence(from, Presence.composing)
-			reply("é mesmo é?")
+			reply("teu pai")
 	}
 	
 		if (messagesC.includes("tmnc")){
 			client.updatePresence(from, Presence.composing)
-			reply("vai vc, tu ja me disse q é mo bom")
+			reply("chora muito")
 	}
 	
 		if (messagesC.includes("vsfd")){
 			client.updatePresence(from, Presence.composing)
-			reply("bora juntos?")
+			reply("não obg to mec")
 	}
 	
 		if (messagesC.includes("cadebot")){
 			client.updatePresence(from, Presence.composing)
-			reply("olha eu aqui carai")
+			reply("ó eu aqui caraí")
 	}
 	
 		if (messagesC.includes("bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("roi, falando de mim?🥺❤️")
+			reply("falando de mim?🥺❤️")
 	}
 	
 			if (messagesC.includes("tobi")){
@@ -773,8 +773,8 @@ if (text.includes("placa"))
 					break
 					case 'lista':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply('Você quem é o proprietário?')
-					if (args.length < 1) return reply('Onde está o texto, irmão?')
+					if (!isOwner) return reply('você é o proprietário?')
+					if (args.length < 1) return reply('cadê o texto desgraça')
 					reply(mess.wait)
 					client.sendMessage(from, 'Adicionando mensagem à lista com sucesso' , text, { quoted: mek })
 					client.sendMessage(from, addsay(prefix), text, { quoted: mek })
@@ -795,7 +795,7 @@ if (text.includes("placa"))
 					break
 				case 'ssweb':
 				
-					if (args.length < 1) return reply('Cadê o url tio')
+					if (args.length < 1) return reply('cadê o url desgraça')
 					tekss = body.slice(7)
 					reply(mess.wait)
 					anu = await fetchJson(`https://mnazria.herokuapp.com/api/screenshotweb?url=${tekss}`)
@@ -803,7 +803,7 @@ if (text.includes("placa"))
 					client.sendMessage(from, bufferz, image, {quoted: mek})
 					break
                 case 'ytkomen':
-					if (args.length < 1) return reply('Cadê o texto tio?')
+					if (args.length < 1) return reply('cadê o texto desgraça')
 					gh = body.slice(9)
 					usnm = gh.split("|")[0];
 					cmn = gh.split("|")[1];
@@ -1136,7 +1136,7 @@ if (text.includes("placa"))
 					client.sendMessage(from, party, image, {quoted: mek})
 					break
                 case 'ninjalogo':
-                      if (args.length < 1) return reply('Cadê o texto?')
+                      if (args.length < 1) return reply('cadê o texto?')
                       gh = body.slice(11)
                       gl1 = gh.split("|")[0];
                       gl2 = gh.split("|")[1];
@@ -1147,7 +1147,7 @@ if (text.includes("placa"))
                       break
 		case 'tahta':
                 tahta = `${body.slice(7)}`
-                     if (args.length < 1) return reply('Cadê o texto, mano??')
+                     if (args.length < 1) return reply('cadê o texto?')
                      if (args.length > 10) return reply('mínimo 10 linhas')
                      buff = await getBuffer(`https://api.zeks.xyz/api/hartatahta?text=${tahta}&apikey=apivinz`, {method: 'get'})
                      anker.sendMessage(from, buff, image, {quoted: mek, caption: `Tesouro do trono ${tahta}`})
@@ -1163,7 +1163,7 @@ if (text.includes("placa"))
                     await limitAdd(sender)
                     break
           case 'snack':
-				if (args.length < 1) return reply('Cadê o url mano?')
+				if (args.length < 1) return reply('cadê o url?')
 					if (!isUrl(args[0]) && !args[0].includes('sck')) return reply(mess.error.Iv)
                 anu = await fetchJson(`https://api-anoncybfakeplayer.herokuapp.com/sckdown?url=${args[0]}`, {method: 'get'})
                if (anu.error) return reply(anu.error)
@@ -1448,13 +1448,13 @@ if (text.includes("placa"))
 					ri = JSON.parse(JSON.stringify(anu));
 					ze =  ri[Math.floor(Math.random() * ri.length)];
 					nye = await getBuffer(ze)
-					client.sendMessage(from, nye, image, { caption: 'i love you, mia 🥺❤️', quoted: mek })
+					client.sendMessage(from, nye, image, { caption: 'te amo mia 🥺❤️', quoted: mek })
 					await limitAdd(sender) 	
 					break 
 				case 'texteng':
 					if (args.length < 1) return reply(mess.blank)
 					tels = body.slice(9)
-					if (tels.ength > 10) return reply('O texto é longo, até 9 caracteres')
+					if (tels.ength > 10) return reply('o texto é muito longo, até 9 caracteres')
 					reply(mess.wait)
 					anu = await fetchJson(`http://melodicxt.herokuapp.com/api/txtcustom?theme=sand_engraved&text=${tels}&apiKey=administrator`, {method: 'get'})
 					buff = await getBuffer(anu.result)
@@ -1535,7 +1535,7 @@ if (text.includes("placa"))
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *NABUTOBOT* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *WZZBOT* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
@@ -1549,7 +1549,7 @@ if (text.includes("placa"))
 		        case 'wame':
                   client.updatePresence(from, Presence.composing) 
                   options = {
-                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*NABUTO DOMINA*`,
+                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*MARQUIN7 DOMINA*`,
                   contextInfo: { mentionedJid: [sender] }
                   }
                   client.sendMessage(from, options, text, { quoted: mek } )
@@ -1565,7 +1565,7 @@ if (text.includes("placa"))
                   break
                case 'pornhub':
 			   reply(mess.wait)
-              	    if (args.length < 1) return reply('Cadê o texto, mano?')
+              	    if (args.length < 1) return reply('Cadê o texto mano?')
                     teks = body.slice(9)
                     anu = await fetchJson(`https://api.arugaz.my.id/api/media/pornhub/search?query=${teks}`, {method: 'get'})
                     teks = `===============\n`
@@ -1990,7 +1990,7 @@ break
 					break 
 				case 'addfoto':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply('Você quem é o dono? ')
+					if (!isOwner) return reply('você é o dono? ')
 					client.sendMessage(from, addfoto(prefix), text, { quoted: mek })
 					break
 			    case 'otagall3':
@@ -2006,7 +2006,7 @@ break
 					mentions(teks, members_id, true)
 					break
 			    case 'kbbi':
-					if (args.length < 1) return reply('O que você quer procurar um?')
+					if (args.length < 1) return reply('O que você quer procurar')
 					anu = await fetchJson(`https://mnazria.herokuapp.com/api/kbbi?search=${body.slice(6)}`, {method: 'get'})
 					reply('De acordo com Kbbi:\n\n'+anu.result)
 					break
@@ -2017,10 +2017,10 @@ break
 					break
 			  case 'next':
                
-                if (isGroup) return  reply( 'NÃO PODE ESTAR EM GRUPO KAK')
+                if (isGroup) return  reply( 'NÃO PODE ESTAR EM GRUPO')
                 await reply('Ache um companheiro >_<')
                 await reply(`wa.me/${anug}`)
-                await reply( `Par encontrado: 🐊\n*${prefix}next* — Encontre novos parceiros`)
+                await reply( `Par encontrado: 😏\n*${prefix}next* — Encontre novos parceiros`)
                 break
 			case 'instaimg':
 				if (!isUrl(args[0]) && !args[0].includes('www.instagram.com')) return reply(mess.error.lv)
@@ -2197,7 +2197,7 @@ break
 					const userXp = getLevelingXp(sender)
 					if (userLevel === undefined && userXp === undefined) return reply(mess.levelnol)
 					sem = sender.replace('@s.whatsapp.net','')
-					resul = `┏━━❉ *LEVEL* ❉━━\n┣⊱ Nome : ${sem}\n┣⊱ Seu XP :  ${userXp}\n┣⊱ Seu Level : ${userLevel}\n┗━━━━━━━━━━━━`
+					resul = `┏━━❉ *LEVEL* ❉━━\n┣⊱ Nome : ${sem}\n  ┣⊱ Seu XP :  ${userXp}\n┣⊱ Seu Level : ${userLevel}\n┗━━━━━━━━━━━━`
 					client.sendMessage(from, resul, text, { quoted: mek})
 					.catch(async (err) => {
                     console.error(err)
@@ -2251,7 +2251,7 @@ break
 						antilink.push(from)
 						fs.writeFileSync('./src/antilink.json', JSON.stringify(antilink))
 						reply('Grupo anti-link ativado com sucesso neste grupo ✔️')
-						client.sendMessage(from,`Atencao a todos os membros ativos deste grupo anti-link. ee você enviar um link de grupo, voce sera expulso daqui  grupo`, text)
+						client.sendMessage(from,`Atenção a todos os membros ativos deste grupo, se você enviar um link de grupo, voce sera expulso daqui! `, text)
 					} else if (Number(args[0]) === 0) {
 						if (!isantilink) return reply('O modo de grupo anti-link foi desabilitado ')
 						var ini = anti.clientOf(from)
@@ -2289,7 +2289,7 @@ break
 					glass = `${body.slice(8)}`
 					reply(mess.wait)
 					bufferu = await getBuffer(`https://api.vhtear.com/wetglass?text=${glass}&apikey=${VthearApi}`, {method: 'get'})
-					client.sendMessage(from, bufferu, image, {caption: 'Aqui amigo (a)', quoted: mek})
+					client.sendMessage(from, bufferu, image, {caption: 'Aqui amigo(a)', quoted: mek})
 					await limitAdd(sender) 
 					break 
 					case 'croman':               
@@ -2307,7 +2307,7 @@ break
 					reply(`O nome do bot foi alterado com sucesso para : ${name}`)
 					break
 					case 'clove':
-					  if (args.length < 1) return reply('Cadê o texto, mano??')
+					  if (args.length < 1) return reply('Cadê o texto mano??')
                      if (args.length > 10) return reply('pelo menos 10 caracteres')
 					 love = `${body.slice(7)}`
 					 buff = await getBuffer(`https://api.vhtear.com/lovemessagetext?text=${love}&apikey=${VthearApi}`, {method: 'get'})
@@ -2449,13 +2449,13 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO NABUTO BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO WZZ BOT 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *NABUTO* 」*────`
+					teks += `│+ Total de usuários : ${user.length}\n╰──────*「 *WZZ* 」*────`
 					 client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'desligar':
@@ -2499,7 +2499,7 @@ break
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`❌ Gagal, pada saat mengkonversi ${tipe} ke stiker`)
+								reply(`❌ Falhou, no momento da conversão ${tipe} para stiker`)
 							})
 							.on('end', function () {
 								console.log('Finish')
@@ -2705,7 +2705,7 @@ break
 					enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(enmedia)
 					await client.updateProfilePicture(botNumber, media)
-					reply('Obrigado pelo novo perfil😗')
+					reply('Obrigado pelo novo perfil')
 					break
 				case 'filme':
 				if (args.length < 1) return reply('Que filme quer encontrar?')
@@ -3045,7 +3045,7 @@ break
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
 			    case 'fakereplay':
-                   client.reply(from, 'ange mas', 'mending lari', "0816-5466368")
+                   client.reply(from, 'ange mas', 'mending lari', "011-977782073")
                    break
 				case 'infogc':
 				client.updatePresence(from, Presence.composing)
@@ -3067,8 +3067,8 @@ break
 					break
 			    case 'owner':
 			    case 'dono':
-                    client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                    client.sendMessage(from, 'Meu dono é esse gasoso aí tal de "nabuto"🙄, chama ele aí ele diz que é "Shitpost"',MessageType.text, { quoted: mek} )
+                    client.sendMessage(from, {displayname: "marquin7", vcard: vcard}, MessageType.contact, { quoted: mek})
+                    client.sendMessage(from, 'O dono do bot é esse lindo aí, tal de marquin7, chama ele aí e salva o contato',MessageType.text, { quoted: mek} )
                     break
                 case 'fitnah':	
 				case 'fake':          
